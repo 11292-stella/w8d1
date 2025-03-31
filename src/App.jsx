@@ -15,10 +15,14 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <ButtonComponent nomeButton="primoBottone" />
-      <ButtonComponent nomeButton="secondoBottone" />
-      <ImageComponent nomeImmagine="https://placecats.com/300/200" />
-      <ImageComponent nomeImmagine="https://placecats.com/100/200" />
+      <div>
+        <ButtonComponent nomeButton="primoBottone" />
+        <ButtonComponent nomeButton="secondoBottone" />
+      </div>
+      <div>
+        <ImageComponent nomeImmagine="https://placecats.com/300/200" />
+        <ImageComponent nomeImmagine="https://placecats.com/100/200" />
+      </div>
     </>
   )
 }
